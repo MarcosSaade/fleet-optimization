@@ -163,16 +163,6 @@ fleet-optimization/
 - **`FleetSimulator`**: Simulates the queueing system for a given fleet configuration
 - **`DetailedFleetSimulator`**: Extended simulator with detailed trip tracking
 
-## 📊 Sample Results
-
-Based on 50 Monte Carlo simulations per configuration:
-
-| Configuration | Daily Cost | Avg Wait | Max Wait | Queue Avg |
-|---------------|------------|----------|----------|-----------|
-| Economic | ~$500 | 8.5 min | 25 min | 4.2 pax |
-| Balanced | ~$600 | 6.8 min | 20 min | 3.1 pax |
-| Premium | ~$750 | 5.2 min | 15 min | 2.3 pax |
-
 
 ## 🛠️ Customization
 
