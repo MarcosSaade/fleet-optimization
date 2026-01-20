@@ -2,7 +2,7 @@
 
 ## 📋 Overview
 
-This project implements a **stochastic optimization model** to determine the optimal fleet configuration for my university's transportation service. Using **Monte Carlo simulation** and **queueing theory**, the system analyzes different vehicle combinations to minimize operational costs while maintaining acceptable passenger waiting times, based on read data.
+This project implements a **stochastic optimization model** to determine the optimal fleet configuration for my university's transportation service. Using **Monte Carlo simulation** and **queueing theory**, the system analyzes different vehicle combinations to minimize operational costs while maintaining acceptable passenger waiting times, based on real data.
 
 ### Key Features
 
