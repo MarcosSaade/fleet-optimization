@@ -1,0 +1,7 @@
+demand,fleets_meeting_target,cheapest_fleet,daily_cost,avg_wait,recommended_avg_wait,recommended_share_on_target,recommended_unserved
+1x,21,"1 Van A, 2 Van B",1091.2000,7.9987,7.9987,0.9960,2.1770
+1.25x,21,"1 Van A, 2 Van B",1091.2000,8.1628,8.1628,0.9940,2.5945
+1.5x,21,"1 Van A, 2 Van B",1091.2000,8.4407,8.4407,0.9815,3.0845
+2x,17,"1 Bus B, 1 Van A, 2 Van B",1346.8000,8.4136,9.6706,0.6770,4.4880
+2.5x,12,"1 Van A, 3 Van B",1463.2000,8.0749,16.6487,0.0125,5.6125
+3x,8,"1 Bus A, 1 Van A, 2 Van B",1559.8000,7.9577,31.3936,0.0000,7.1420
