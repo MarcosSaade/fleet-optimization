@@ -1,6 +1,6 @@
 # Fleet Sizing with Monte Carlo Simulation
 
-Which mix of buses and vans should run a corporate passenger shuttle from 6:00 to 22:00 so that passengers wait under 10 minutes, at the lowest daily cost? This project answers that with a discrete-event Monte Carlo simulation built on the service's real trip data: 27 feasible fleets, each simulated over the same 10,000 days (270,000 simulated days in total).
+Which mix of buses and vans should run a corporate passenger shuttle from 6:00 to 22:00 so that passengers wait under 10 minutes, at the lowest daily cost? This project answers that for a real transport operation, Transportadora Viajes Recreativos in Mexico City, with a discrete-event Monte Carlo simulation built on the company's recorded trip data: 27 feasible fleets, each simulated over the same 10,000 days (270,000 simulated days in total).
 
 **Result:** the recommended fleet, 1 Van A + 2 Van B, costs **$1,091.20 a day** and keeps the day's average wait under 10 minutes on **99.4% of days** (mean 8.02 min). The cheapest fleet that meets the target only on average ($974.80) misses it on 22% of days, and the fastest fleet costs $493,000 more a year for 2.9 fewer minutes of waiting.
 
