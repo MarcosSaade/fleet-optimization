@@ -1,6 +1,6 @@
 # Fleet Optimization for Transportation
 
-## 📋 Overview
+## Overview
 
 This project implements a **stochastic optimization model** to determine the optimal fleet configuration for my university's transportation service. Using **Monte Carlo simulation** and **queueing theory**, the system analyzes different vehicle combinations to minimize operational costs while maintaining acceptable passenger waiting times, based on real data.
 
@@ -12,7 +12,7 @@ This project implements a **stochastic optimization model** to determine the opt
 - **Multi-objective Optimization**: Balances cost minimization and service quality
 - **Comprehensive Analytics**: Detailed visualizations and performance metrics
 
-## 🎯 Problem Statement
+## Problem Statement
 
 **Objective**: Find the optimal combination of vehicles to minimize costs while keeping average passenger waiting time under 10 minutes.
 
@@ -31,7 +31,7 @@ This project implements a **stochastic optimization model** to determine the opt
 - **Maximum Waiting Time**: Average passenger waiting time < 10 minutes
 - **Vehicle Availability**: Limited to maximum available quantities
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -61,7 +61,7 @@ pip install -r requirements.txt
 jupyter notebook optimizacion_flota.ipynb
 ```
 
-## 📊 Methodology
+## Methodology
 
 ### 1. Passenger Arrival Modeling
 
@@ -98,7 +98,7 @@ For each configuration, we calculate:
 - **Total trips per day**
 - **Vehicle utilization** (%)
 
-## 📈 Results
+## Results
 
 The analysis generates comprehensive visualizations including:
 
@@ -116,7 +116,7 @@ The system identifies three recommended options:
 - **Premium Option**: Minimizes waiting time for best service quality
 - **Balanced Option**: Optimal cost-benefit trade-off
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 fleet-optimization/
@@ -138,7 +138,7 @@ fleet-optimization/
 └── README.md
 ```
 
-## 🔬 Technical Details
+## Technical Details
 
 ### Simulation Algorithm
 
@@ -164,7 +164,7 @@ fleet-optimization/
 - **`DetailedFleetSimulator`**: Extended simulator with detailed trip tracking
 
 
-## 🛠️ Customization
+## Customization
 
 To adapt this model for your use case:
 
