@@ -65,7 +65,7 @@ All results are exported to [`data/fleet_results.csv`](data/fleet_results.csv) a
 ## Limitations
 
 - Arrival rates are fixed per time window; there is no day-of-week or seasonal effect beyond the sensitivity study.
-- Vehicle trips are resampled from historical gaps, so the simulation assumes future schedules behave like the recorded ones and that gaps do not depend on load.
+- Vehicle trips are resampled from historical gaps, so the simulation assumes future schedules behave like the recorded ones and that gaps do not depend on load. The 18:00 to 22:00 gaps were estimated from the afternoon records with the company's managers, because that window was not recorded.
 - Passengers arriving after the last departure of the day (about 2 per day) are counted as unserved rather than given a wait.
 - Costs are hourly vehicle costs only (no fixed or maintenance costs).
 
